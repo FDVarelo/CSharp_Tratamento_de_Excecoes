@@ -22,6 +22,10 @@ namespace Course
             {
                 Console.WriteLine("The input must be integer.");
             }
+            finally
+            {
+                Console.WriteLine("\nSystem ended!");
+            }
         }
     }
 }
